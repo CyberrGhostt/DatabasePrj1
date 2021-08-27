@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[ORDERED] (
+    [CUST_NO]     CHAR (15) NOT NULL,
+    [ITEM_NO]     CHAR (12) NOT NULL,
+    [QTY_ORDERED] INT       NULL
+);
+
