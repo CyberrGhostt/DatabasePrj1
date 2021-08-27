@@ -8,5 +8,5 @@
 
 GO
 CREATE CLUSTERED INDEX [ClusteredIndex-20210818-182756]
-    ON [dbo].[puzzle]([id] ASC) WITH (DATA_COMPRESSION = PAGE);
+    ON [dbo].[puzzle]([id]  ASC,[amount] ASC) WITH (DATA_COMPRESSION = PAGE);
 
